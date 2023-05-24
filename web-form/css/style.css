@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+}
+
+.work h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.work h1::after {
+    content: '';
+    background: #7b7484;
+    width: 350px;
+    height: 4px;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer a{
+    color: black;
+}
